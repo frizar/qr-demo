@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #333;
+  color: #ddd;
+}
+
+a {
+  color: #aaa;
+
+  &::before {
+    content: '🔗';
+    margin-right: 0.15rem;
+  }
+
+
+  &:hover {
+    color: #ddd;
+  }
+}
